@@ -69,6 +69,9 @@ public class Registration extends AppCompatActivity {
         editor.apply();
 
         Toast.makeText(this,"Saved",Toast.LENGTH_LONG).show();
+        Intent submit = new Intent(Registration.this, Search.class);
+        
+        startActivity(submit);
 
     }
 
