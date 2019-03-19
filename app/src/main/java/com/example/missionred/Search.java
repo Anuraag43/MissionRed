@@ -9,18 +9,15 @@ public class Search extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        
         super.onCreate(savedInstanceState);
+        
         setContentView(R.layout.activity_search);
     }
 
-
-
-
-
-
     public void call(View view)
     {
-        Intent contact = new Intent(Intent.ACTION_DIAL);
-        startActivity(contact);
+        Intent contacts = new Intent(Intent.ACTION_DIAL);
+        startActivity(contacts);
     }
 }
