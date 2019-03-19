@@ -13,6 +13,11 @@ public class Search extends AppCompatActivity {
         setContentView(R.layout.activity_search);
     }
 
+
+
+
+
+
     public void call(View view)
     {
         Intent contact = new Intent(Intent.ACTION_DIAL);
