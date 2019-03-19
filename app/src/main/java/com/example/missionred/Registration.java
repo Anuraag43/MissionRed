@@ -68,6 +68,8 @@ public class Registration extends AppCompatActivity {
         editor.putString("distance",dist.getText().toString());
         editor.apply();
 
+        Toast.makeText(this,"Saved",Toast.LENGTH_LONG).show();
+
     }
 
 
