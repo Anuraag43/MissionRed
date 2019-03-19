@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 String user = username.getText().toString();
-                String pass = password.getText().toString();
+                String pws = password.getText().toString();
 
                SharedPreferences preferences = getSharedPreferences("signup", Context.MODE_PRIVATE);
 
