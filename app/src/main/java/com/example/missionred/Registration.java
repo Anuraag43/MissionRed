@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -27,6 +28,7 @@ public class Registration extends AppCompatActivity {
     EditText password;
     EditText conpassword;
     EditText dist;
+    CheckBox checkB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,7 @@ public class Registration extends AppCompatActivity {
         password = (EditText) findViewById(R.id.editText10);
         conpassword = (EditText) findViewById(R.id.editText11);
         dist = (EditText)findViewById(R.id.editText12);
+        checkB = (CheckBox)findViewById(R.id.checkBox1);
     }
 
 
@@ -69,6 +72,7 @@ public class Registration extends AppCompatActivity {
        editor.putString("password",password.getText().toString());
        editor.putString("confirmpass",conpassword.getText().toString());
         editor.putString("distance",dist.getText().toString());
+      editor.putBoolean("checkBox", true);
         editor.apply();
 
         
