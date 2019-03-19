@@ -62,11 +62,16 @@ public class Registration extends AppCompatActivity {
         editor.putString("address1",address1.getText().toString());
         editor.putString("address2",address2.getText().toString());
         editor.putString("bloodgroup",bloodgroup.getText().toString());
+        
+
+
         editor.putString("username",username.getText().toString());
        editor.putString("password",password.getText().toString());
        editor.putString("confirmpass",conpassword.getText().toString());
         editor.putString("distance",dist.getText().toString());
         editor.apply();
+
+        
 
         Toast.makeText(this,"Saved",Toast.LENGTH_LONG).show();
         Intent submit = new Intent(Registration.this, Search.class);
