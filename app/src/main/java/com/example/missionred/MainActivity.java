@@ -16,33 +16,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         final EditText username = (EditText) findViewById(R.id.editText1);
         final EditText password = (EditText)findViewById(R.id.editText2);
         final Button login = (Button)findViewById(R.id.button1);
 
-
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 String user = username.getText().toString();
                 String pws = password.getText().toString();
-
                SharedPreferences preferences = getSharedPreferences("signup", Context.MODE_PRIVATE);
-
                //String userdetails = preferences.getString(username + password + "data", "username or password is incorrect");
-
-
-
-
-
-
             }
         });
-
-
     }
 
     public void signup(View view)
