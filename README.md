@@ -12,7 +12,7 @@ This is an app that facilitates blood donation based on closest availability
 1. Sometimes people don't find donors at the correct time. This app helps to connect donors and recipients.
 2. No need to store excess blood in blood banks to fulfill every requirement.
 3. This app is used to find the donor in the very effiecnt and quick way. 
-
+4. As we provide the distance, the user can choose the closest location.
 
 
 
