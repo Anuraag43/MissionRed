@@ -2,8 +2,8 @@
 This is an app that facilitates blood donation based on closest availability
 
 #Developers:
-1. Anuraag Sannakkayala
-2. Anurag Alladi
+1. Anuraag Naidu Sannakkayala
+2. Sri Anurag Sai Alladi
 3. Swathi Challagundla
 4. Harish Reddy Vavilala
 
@@ -20,7 +20,7 @@ This is an app that facilitates blood donation based on closest availability
 #Pages and flow in the project:
 
 1. Login Page: Here user will be able to login to the application.
-2. Sign Up Page : Before able to login he should signup for the application from this page.
-3. Search  Page : Here is where user will be able to Search for particular blood group donor by typing requried blood group donors in the                         search field user must login before this.
-4. Results Page : Here is where all the results are displayed with the contact details. He can directly call the donor from results using                         dialler symbol which will direct to dialler and call donor.
+2. Sign Up Page : If this is the first time for the user using this application, they have to signup in this page.
+3. Search  Page : If usr want to Search for particular blood group donor, this can be done in this page by typing requried blood group in the                         search field. User must login before doing this.
+4. Results Page : The results are displayed with the contact details. He can directly call the donor from results using                                               dialler symbol which will direct to dialler and call donor.
                 : The results are displayed with the shortest distance from the recipent and the donor and depends on the donor willing to travel in miles.
