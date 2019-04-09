@@ -21,3 +21,4 @@ This is an app that facilitates blood donation based on closest availability
 2. Sign Up Page : Before able to login he should signup for the application from this page.
 3. Search  Page : Here is where user will be able to Search for particular blood group donor by typing requried blood group donors in the                         search field user must login before this.
 4. Results Page : Here is where all the results are displayed with the contact details. He can directly call the donor from results using                         dialler symbol which will direct to dialler and call donor.
+                : The results are displayed with the shortest distance from the recipent and the donor and depends on the donor willing to travel in miles.
