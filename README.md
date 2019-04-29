@@ -1,3 +1,7 @@
+<h2>App Logo</h2>
+
+![icon](https://user-images.githubusercontent.com/43010470/56877441-ba0f5280-6a13-11e9-9136-c0b4c35b7c0c.png)
+
 ## Project Benefits:
 1. Sometimes people don't find donors at the correct time. This app helps to connect donors and recipients.	
 2. No need to store more undefined blood in blood banks to fulfill every requirement.	
