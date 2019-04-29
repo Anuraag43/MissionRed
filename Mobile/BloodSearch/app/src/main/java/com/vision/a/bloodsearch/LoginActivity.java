@@ -58,7 +58,7 @@ import static android.Manifest.permission.READ_CONTACTS;
  */
 public class LoginActivity extends AppCompatActivity {
 
-    static String urlIP = "http://192.168.0.147:8084/BloodDonorsSearch/";
+    static String urlIP = "http://192.168.0.26:8084/BloodDonorsSearch/";
     String status;
 
     /**
