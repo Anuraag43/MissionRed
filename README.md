@@ -7,14 +7,14 @@
 2. No need to store more undefined blood in blood banks to fulfill every requirement.	
 
 
- ##Pages and flow in the project:      
+ ## Pages and flow in the project:      
 1. Login Page: Here user will be able to login to the application.
 2. Sign Up Page : Before able to login he should signup for the application from this page.
 3. Search  Page : Here is where user will be able to Search for particular blood group donor by typing requried blood group donors in      the search field user must login before this.
 4. Results Page : Here is where all the results are displayed with the contact details. He can directly call the donor from results        using dialler symbol which will direct to dialler and call donor.
 
 
-##Installation steps:
+## Installation steps:
 1. Open server folder in our github link or in zip file.
 2. In server folder, open BloodDonorsSearch in javaWeb, web application with existing source code in any one of the IDE's (Netbeans is preferred).
 3. Run signin.java file which is present in Source Packages. It gives an output in Internet explorer opening the local host.
@@ -30,29 +30,32 @@
 11. Run the app in the android studio in API 28, android 9 (PIXEL XL).
 
 
-##Requirements:
+## Requirements:
 1. MySQL 5.5 Command Line Client.
 2. Android Studio.
 3. Netbeans intalled with javaWeb.
 4. PIXEL XL, API 28, android 9.
 
 
-##Test credentials:
+## Test credentials:
+1.
 username: Anurag
 password: anurag
+2.
+username:sneha
+password:@Sneha0806
 
-
-##apk file github link:
+## apk file github link:
 
 https://github.com/Anuraag43/MissionRed/blob/master/app-debug.apk
 
 
-##Developers:
+## Developers:
 1) Anuraag Sankkayala
 2) Anurag Alladi
 3) Swathi Challagundla
 4) Harish Reddy Vavilala
 
-##Version:
+## Version:
 1.0.2
 
